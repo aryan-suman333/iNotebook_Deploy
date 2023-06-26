@@ -10,7 +10,7 @@ const Signup = (props) => {
 
     e.preventDefault();
     const { name, email, password } = credentials;
-    const response = await fetch(`http://iNotebook.onrender.com/api/auth/createuser`, {
+    const response = await fetch(`https://inotebook-backend-hn1q.onrender.com/api/auth/createuser`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
