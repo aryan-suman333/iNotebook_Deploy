@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-primary">
       <div className="container-fluid">
-        <Link className="navbar-brand" style={{ color: "#FCF7F8" }} to="/">NoteBook</Link>
+        <Link className="navbar-brand" style={{ color: "#FCF7F8" }} to="/">iNoteBook</Link>
         <button onClick={onClick} className="navbar-toggler" type="button" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
